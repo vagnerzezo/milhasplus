@@ -1,0 +1,230 @@
+- generic [active] [ref=e1]:
+  - link "Pular para o conteúdo" [ref=e2] [cursor=pointer]:
+    - /url: "#conteudo"
+  - generic [ref=e4]:
+    - generic [ref=e5]: Pagamento via Pix no mesmo dia da negociação
+    - generic [ref=e7]: CNPJ 38.857.636/0001-73 · Empresa cadastrada
+  - banner [ref=e8]:
+    - navigation "Principal" [ref=e10]:
+      - link "Milhas Plus, início" [ref=e11] [cursor=pointer]:
+        - /url: /
+      - list [ref=e13]:
+        - listitem [ref=e14]:
+          - link "Como funciona" [ref=e15] [cursor=pointer]:
+            - /url: /#como-funciona
+        - listitem [ref=e16]:
+          - link "Serviços" [ref=e17] [cursor=pointer]:
+            - /url: /#servicos
+        - listitem [ref=e18]:
+          - link "Sobre nós" [ref=e19] [cursor=pointer]:
+            - /url: /sobre-nos
+        - listitem [ref=e20]:
+          - link "Dúvidas" [ref=e21] [cursor=pointer]:
+            - /url: /perguntas-frequentes
+        - listitem [ref=e22]:
+          - link "Agências" [ref=e23] [cursor=pointer]:
+            - /url: /agencias
+      - link "Vender minhas milhas" [ref=e26] [cursor=pointer]:
+        - /url: https://wa.me/5551994440744?text=Ol%C3%A1!%20Quero%20cotar%20a%20venda%20das%20minhas%20milhas.
+  - main [ref=e27]:
+    - generic [ref=e28]:
+      - generic [ref=e30]:
+        - navigation "Você está em" [ref=e31]:
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - link "Início" [ref=e34] [cursor=pointer]:
+                - /url: /
+            - listitem [aria-hidden] [ref=e35]: /
+            - listitem [ref=e36]: Sobre nós
+        - generic [ref=e38]:
+          - paragraph [ref=e39]: SOBRE NÓS
+          - heading "Conheça a Milhas Plus e a nossa metodologia." [level=1] [ref=e40]: Conheça a Milhas Pluse a nossa metodologia.
+          - paragraph [ref=e41]: A Milhas Plus é uma empresa especializada na negociação de milhas, oferecendo uma alternativa valiosa tanto para quem compra quanto para quem vende. Nosso grande diferencial é a agilidade no processo.
+          - list [ref=e42]:
+            - listitem [ref=e43]: Empresa com CNPJ
+            - listitem [ref=e47]: Cadastrada no Cadastur
+            - listitem [ref=e50]: Atendimento humano
+      - region "Resultados" [ref=e54]:
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - term [ref=e58]: de milhas negociadas
+            - definition [ref=e59]: +25 bi
+          - generic [ref=e60]:
+            - term [ref=e61]: clientes atendidos
+            - definition [ref=e62]: +100 mil
+          - generic [ref=e63]:
+            - term [ref=e64]: agências parceiras
+            - definition [ref=e65]: +3 mil
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - img "Equipe da Milhas Plus reunida em frente ao Hotel Jequitimar, com camisetas da empresa" [ref=e70]
+          - generic [ref=e71]:
+            - paragraph [ref=e72]: 01 — QUEM SOMOS
+            - heading "Gente apaixonada por viagens e especialista em milhas." [level=2] [ref=e73]
+            - paragraph [ref=e74]: "A Milhas PLUS é uma empresa especializada na negociação de milhas, oferecendo uma alternativa valiosa tanto para quem compra quanto para quem vende. Nosso grande diferencial é a agilidade no processo: quem compra passagens aéreas recebe a confirmação imediata da companhia aérea, enquanto quem vende suas milhas acumuladas pode contar com o pagamento realizado em até 24 horas após a conclusão da negociação. Garantimos 100% de segurança em todas as transações."
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - paragraph [ref=e77]: Nossa equipe é composta por profissionais dedicados, que compartilham uma paixão por viagens e um profundo conhecimento dos programas de fidelidade. Trabalhamos em conjunto para garantir que nossos clientes tenham acesso às melhores opções disponíveis no mercado.
+            - paragraph [ref=e78]: À frente da Milhas PLUS está Gunnar Ferreira, um profissional com anos de experiência e habilidade em negociações no setor de milhas. Sua expertise é fundamental para que possamos oferecer as melhores opções de passagens aéreas, sempre buscando maximizar os benefícios para nossos clientes.
+            - paragraph [ref=e79]: Acreditamos que um atendimento excepcional e personalizado é fundamental. Cada viagem é única e as necessidades dos nossos clientes variam, por isso estamos sempre prontos para oferecer orientação especializada e encontrar as opções de voos que melhor atendam às preferências de cada um.
+          - img "Equipe da Milhas Plus sentada em um auditório, acompanhando uma palestra" [ref=e81]
+        - generic [ref=e82]:
+          - img "Gunnar Ferreira, CEO da Milhas Plus" [ref=e83]
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: À FRENTE DA MILHAS PLUS
+            - paragraph [ref=e86]: Um profissional com anos de experiência e habilidade em negociações no setor de milhas. Sua expertise é fundamental para oferecermos as melhores opções de passagens aéreas, sempre buscando maximizar os benefícios para nossos clientes.
+            - paragraph [ref=e87]:
+              - strong [ref=e88]: Gunnar Ferreira
+              - generic [ref=e89]: · CEO
+      - generic [ref=e91]:
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - paragraph [ref=e94]: 02 — NOSSA METODOLOGIA
+            - heading "Agilidade para quem compra. Segurança para quem vende." [level=2] [ref=e95]: Agilidade para quem compra.Segurança para quem vende.
+          - paragraph [ref=e96]: Um processo pensado para que cada lado da negociação saiba exatamente o que acontece — e quando.
+        - list [ref=e97]:
+          - listitem [ref=e98]:
+            - paragraph [ref=e102]: PARA QUEM COMPRA
+            - heading "Confirmação imediata" [level=3] [ref=e103]
+            - paragraph [ref=e104]: Quem compra passagens recebe a confirmação imediata da companhia aérea.
+          - listitem [ref=e105]:
+            - paragraph [ref=e109]: PARA QUEM VENDE
+            - heading "Pagamento rápido" [level=3] [ref=e110]
+            - paragraph [ref=e111]: "Quem vende suas milhas recebe o pagamento logo após a conclusão da negociação. [Alinhar prazo: “até 24h” × “mesmo dia”.]"
+          - listitem [ref=e112]:
+            - paragraph [ref=e117]: EM TODA NEGOCIAÇÃO
+            - heading "Segurança nas transações" [level=3] [ref=e118]
+            - paragraph [ref=e119]: Processo acompanhado pela nossa equipe em cada etapa, dentro das regras dos programas de fidelidade.
+          - listitem [ref=e120]:
+            - paragraph [ref=e124]: SEMPRE
+            - heading "Atualização constante" [level=3] [ref=e125]
+            - paragraph [ref=e126]: Acompanhamos as novidades do setor e dos programas para oferecer as melhores opções do mercado.
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - paragraph [ref=e130]: 03 — MISSÃO, VISÃO E VALORES
+          - heading "O que guia cada negociação." [level=2] [ref=e131]
+        - generic [ref=e132]:
+          - article [ref=e133]:
+            - paragraph [ref=e134]: /MISSÃO
+            - heading "Missão" [level=3] [ref=e135]
+            - paragraph [ref=e136]: "[Texto da missão — usar o do post “Missão, Visão & Valores” do Instagram.]"
+          - article [ref=e137]:
+            - paragraph [ref=e138]: /VISÃO
+            - heading "Visão" [level=3] [ref=e139]
+            - paragraph [ref=e140]: "[Texto da visão — usar o do post “Missão, Visão & Valores” do Instagram.]"
+          - article [ref=e141]:
+            - paragraph [ref=e142]: /VALORES
+            - heading "Valores" [level=3] [ref=e143]
+            - paragraph [ref=e144]: "[Valores da empresa — usar o do post “Missão, Visão & Valores” do Instagram.]"
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - paragraph [ref=e149]: 04 — NOSSO TIME
+            - heading "Por trás de cada emissão, uma pessoa do nosso time." [level=2] [ref=e150]: Por trás de cada emissão,uma pessoa do nosso time.
+          - paragraph [ref=e151]: Estamos constantemente atualizados sobre as novidades do setor de milhas aéreas e dos programas de fidelidade — o que nos permite oferecer um serviço confiável do início ao fim.
+        - generic [ref=e152]:
+          - generic [ref=e154]:
+            - img "Painel do evento Conexão Milhas Plus 2026 em um salão com mesas preparadas" [ref=e156]
+            - img "Integrante da equipe falando ao microfone durante um evento da Milhas Plus" [ref=e158]
+            - img "Integrantes da equipe com camisas polo da Milhas Plus conversando em um evento" [ref=e160]
+            - img "Integrantes da equipe sorrindo em uma conversa, com camisas pretas da Milhas Plus" [ref=e162]
+            - img "Participantes conversando com bebidas nas mãos em um evento" [ref=e164]
+            - img "Equipe da Milhas Plus reunida em um auditório, em frente a um telão com a marca" [ref=e166]
+            - img "Integrantes da equipe conversando de pé em um evento" [ref=e168]
+            - img "Equipe da Milhas Plus reunida no convés de uma escuna vermelha, com o mar e a mata ao fundo" [ref=e170]
+            - img "Quatro integrantes da equipe abraçados no convés de uma escuna" [ref=e172]
+            - img "Equipe da Milhas Plus em uma atividade na areia da praia" [ref=e174]
+          - generic [ref=e175]:
+            - button "Foto anterior" [disabled] [ref=e176]
+            - button "Próxima foto" [ref=e179] [cursor=pointer]
+      - generic [ref=e184]:
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - paragraph [ref=e187]: 05 — DIFERENCIAIS
+            - heading "Por que negociar com a Milhas Plus?" [level=2] [ref=e188]
+          - link "Ver como funciona" [ref=e189] [cursor=pointer]:
+            - /url: /#como-funciona
+        - list [ref=e193]:
+          - listitem [ref=e194]:
+            - heading "Pagamento no mesmo dia" [level=3] [ref=e198]
+            - paragraph [ref=e199]: Pix no mesmo dia da negociação.
+          - listitem [ref=e200]:
+            - heading "Transparência nas cotações" [level=3] [ref=e204]
+            - paragraph [ref=e205]: Valores reais desde o primeiro contato.
+          - listitem [ref=e206]:
+            - heading "Atendimento humanizado" [level=3] [ref=e210]
+            - paragraph [ref=e211]: Solução rápida com um toque humano.
+      - generic [ref=e213]:
+        - generic [ref=e214]:
+          - paragraph [ref=e215]: OBRIGADO PELA CONFIANÇA
+          - heading "Queremos fazer parte das suas próximas aventuras." [level=2] [ref=e216]: Queremos fazer partedas suas próximas aventuras.
+          - paragraph [ref=e217]: Estamos à disposição para esclarecer qualquer dúvida e garantir que você tenha uma experiência positiva ao viajar com a gente.
+        - generic [ref=e218]:
+          - link "Cotar minhas milhas" [ref=e219] [cursor=pointer]:
+            - /url: https://wa.me/5551994440744?text=Ol%C3%A1!%20Quero%20cotar%20a%20venda%20das%20minhas%20milhas.
+          - link "Cotar uma passagem" [ref=e223] [cursor=pointer]:
+            - /url: https://wa.me/5551994440744?text=Ol%C3%A1!%20Quero%20cotar%20uma%20passagem%20com%20milhas.
+          - link "ou chame no WhatsApp · (51) 99444-0744" [ref=e224] [cursor=pointer]:
+            - /url: https://wa.me/5551994440744?text=Ol%C3%A1!%20Quero%20falar%20com%20a%20Milhas%20Plus.
+  - contentinfo [ref=e225]:
+    - generic [ref=e226]:
+      - generic [ref=e227]:
+        - generic [ref=e228]:
+          - img "Milhas Plus" [ref=e229]
+          - paragraph [ref=e230]: Negociamos milhas e emitimos passagens com segurança, transparência e atendimento humano.
+          - list [ref=e231]:
+            - listitem [ref=e232]:
+              - link "Instagram @milhas.plus" [ref=e233] [cursor=pointer]:
+                - /url: https://www.instagram.com/milhas.plus/
+            - listitem [ref=e237]:
+              - link "Facebook" [ref=e238] [cursor=pointer]:
+                - /url: https://www.facebook.com/milhasplus.viajens
+            - listitem [ref=e241]:
+              - link "WhatsApp" [ref=e242] [cursor=pointer]:
+                - /url: https://wa.me/5551994440744?text=Ol%C3%A1!%20Quero%20falar%20com%20a%20Milhas%20Plus.
+        - generic [ref=e245]:
+          - navigation [ref=e246]:
+            - heading "Serviços" [level=2] [ref=e247]
+            - list [ref=e248]:
+              - listitem [ref=e249]:
+                - link "Vender milhas" [ref=e250] [cursor=pointer]:
+                  - /url: /negociar-milhas
+              - listitem [ref=e251]:
+                - link "Passagem em milhas" [ref=e252] [cursor=pointer]:
+                  - /url: /comprar-milhas
+              - listitem [ref=e253]:
+                - link "Passagem com negociação" [ref=e254] [cursor=pointer]:
+                  - /url: /#passagem-negociacao
+              - listitem [ref=e255]:
+                - link "Agências" [ref=e256] [cursor=pointer]:
+                  - /url: /agencias
+          - navigation [ref=e257]:
+            - heading "Empresa" [level=2] [ref=e258]
+            - list [ref=e259]:
+              - listitem [ref=e260]:
+                - link "Sobre nós" [ref=e261] [cursor=pointer]:
+                  - /url: /sobre-nos
+              - listitem [ref=e262]:
+                - link "Guias práticos" [ref=e263] [cursor=pointer]:
+                  - /url: /guias-praticos
+              - listitem [ref=e264]:
+                - link "Perguntas frequentes" [ref=e265] [cursor=pointer]:
+                  - /url: /perguntas-frequentes
+              - listitem [ref=e266]:
+                - link "Fale conosco" [ref=e267] [cursor=pointer]:
+                  - /url: /contato
+          - navigation [ref=e268]:
+            - heading "Legal" [level=2] [ref=e269]
+            - list [ref=e270]:
+              - listitem [ref=e271]:
+                - link "Termos e condições" [ref=e272] [cursor=pointer]:
+                  - /url: /termos-e-condicoes
+              - listitem [ref=e273]:
+                - link "Política de privacidade" [ref=e274] [cursor=pointer]:
+                  - /url: /politica-de-privacidade
+      - generic [ref=e275]:
+        - generic [ref=e276]: © 2026 Milhas Plus — CNPJ 38.857.636/0001-73. Todos os direitos reservados.
+        - img "Cadastur" [ref=e277]
+  - link "Falar no WhatsApp" [ref=e278] [cursor=pointer]:
+    - /url: https://wa.me/5551994440744?text=Ol%C3%A1!%20Quero%20falar%20com%20a%20Milhas%20Plus.
+  - button "Open Next.js Dev Tools" [ref=e286] [cursor=pointer]

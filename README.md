@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Milhas Plus — site institucional
 
-## Getting Started
+Site da [Milhas Plus](https://milhasplus.com.br), empresa de compra e venda de milhas aéreas e emissão de passagens. Substitui o site legado em Nuxt.
 
-First, run the development server:
+## Stack
+
+- [Next.js](https://nextjs.org) 16 (App Router) com React 19 e TypeScript
+- Tailwind CSS 4
+- Swiper nos carrosséis
+- ESLint e Prettier
+
+## Como rodar
+
+Requer Node.js 20.9 ou superior.
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O site abre em <http://localhost:3000>. Não é preciso configurar variáveis de ambiente.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Comando                | O que faz                              |
+| ---------------------- | -------------------------------------- |
+| `npm run dev`          | Servidor de desenvolvimento            |
+| `npm run build`        | Build de produção                      |
+| `npm run start`        | Serve o build de produção              |
+| `npm run lint`         | Verifica o código com o ESLint         |
+| `npm run typecheck`    | Verifica os tipos com o TypeScript     |
+| `npm run format`       | Formata os arquivos com o Prettier     |
+| `npm run format:check` | Confere a formatação sem alterar nada  |
 
-## Learn More
+## Estrutura
 
-To learn more about Next.js, take a look at the following resources:
+```text
+app/          Rotas, layout, estilos globais, sitemap e robots
+components/   Componentes, agrupados por seção ou página
+  icons/      Ícones SVG do projeto
+  ui/         Componentes básicos (botão, link, container...)
+content/      Textos e dados de cada página
+lib/          Configuração do site, metadata, WhatsApp e formatação
+public/       Imagens e arquivos da marca
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Páginas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Rota                                          | Conteúdo                          |
+| --------------------------------------------- | --------------------------------- |
+| `/`                                           | Landing                           |
+| `/negociar-milhas`                            | Venda de milhas                   |
+| `/comprar-milhas`                             | Passagens com milhas              |
+| `/agencias`                                   | Agências                          |
+| `/parceiros`                                  | Parceiros                         |
+| `/sobre-nos`                                  | Sobre a empresa                   |
+| `/perguntas-frequentes`                       | Perguntas frequentes              |
+| `/contato`                                    | Contato                           |
+| `/guias-praticos/redirecionamento-de-emails`  | Guia de redirecionamento de e-mail |
+| `/politica-de-privacidade`                    | Política de privacidade           |
+| `/termos-e-condicoes`                         | Termos e condições                |
 
-## Deploy on Vercel
+`/guias-praticos` redireciona para o guia de e-mails enquanto não houver uma listagem (veja `next.config.ts`).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Como editar
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Textos e dados:** ficam em `content/`, um arquivo por página. O que é compartilhado, como menu e rodapé, está em `content/site.ts`.
+- **WhatsApp e Telegram:** os contatos e as mensagens prontas de cada intenção ficam em `lib/whatsapp.ts`.
+- **Ícones:** são SVGs próprios em `components/icons/index.tsx`, sem biblioteca externa. Para adicionar um, crie outra função nesse arquivo.
+- **SEO:** os dados gerais estão em `lib/site.ts`, e as páginas internas usam o helper de `lib/metadata.ts`.
+
+## Formulários
+
+Não há backend. Os formulários validam os campos e abrem o WhatsApp com a mensagem pronta, por meio de `sendLead`, em `components/forms/LeadForm.tsx`. Se um backend for criado, esse é o ponto a alterar.
+
+## Pendências de conteúdo
+
+Alguns textos ainda aguardam confirmação e estão marcados com comentários no código. Para listá-los:
+
+```bash
+grep -rnE "VALIDAR|VALIDAÇÃO" content lib
+```
+
+## Observação sobre o Next.js
+
+Esta versão do Next.js tem mudanças em relação às anteriores. Antes de alterar código do framework, consulte a documentação em `node_modules/next/dist/docs/` (veja também `AGENTS.md`).
