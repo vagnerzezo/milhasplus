@@ -35,11 +35,10 @@ export const site = {
   status: "Pagamento via Pix no mesmo dia da negociação",
 
   nav: [
-    { label: "Como funciona", href: "/#como-funciona" },
-    { label: "Serviços", href: "/#servicos" },
-    { label: "Sobre nós", href: "/sobre-nos" },
-    { label: "Dúvidas", href: "/perguntas-frequentes" },
+    { label: "Vender milhas", href: "/negociar-milhas" },
+    { label: "Passagem em milhas", href: "/comprar-milhas" },
     { label: "Agências", href: "/agencias" },
+    { label: "Sobre nós", href: "/sobre-nos" },
   ] satisfies NavLink[],
 
   headerCta: {
@@ -109,7 +108,7 @@ export const site = {
         title: "Empresa",
         links: [
           { label: "Sobre nós", href: "/sobre-nos" },
-          { label: "Guias práticos", href: "/guias-praticos" },
+          { label: "Redirecionamento de e-mails", href: "/redirecionamento-de-emails" },
           { label: "Perguntas frequentes", href: "/perguntas-frequentes" },
           { label: "Fale conosco", href: "/contato" },
         ],

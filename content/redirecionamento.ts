@@ -60,7 +60,6 @@ export const redirecionamento = {
   hero: {
     breadcrumb: [
       { label: "Início", href: "/" },
-      { label: "Guias práticos", href: "/guias-praticos" },
       { label: "Redirecionamento de e-mails" },
     ],
     eyebrow: "GUIA PRÁTICO",

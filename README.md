@@ -56,11 +56,11 @@ public/       Imagens e arquivos da marca
 | `/sobre-nos`                                  | Sobre a empresa                   |
 | `/perguntas-frequentes`                       | Perguntas frequentes              |
 | `/contato`                                    | Contato                           |
-| `/guias-praticos/redirecionamento-de-emails`  | Guia de redirecionamento de e-mail |
+| `/redirecionamento-de-emails`                 | Guia de redirecionamento de e-mail |
 | `/politica-de-privacidade`                    | Política de privacidade           |
 | `/termos-e-condicoes`                         | Termos e condições                |
 
-`/guias-praticos` redireciona para o guia de e-mails enquanto não houver uma listagem (veja `next.config.ts`).
+`/guias-praticos` redireciona para o guia de e-mails enquanto não houver uma listagem, e a URL antiga `/guias-praticos/redirecionamento-de-emails` redireciona permanentemente para a nova (veja `next.config.ts`).
 
 ## Como editar
 

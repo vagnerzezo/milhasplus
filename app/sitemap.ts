@@ -30,7 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     },
     {
-      url: `${SITE_URL}/guias-praticos/redirecionamento-de-emails`,
+      url: `${SITE_URL}/redirecionamento-de-emails`,
       changeFrequency: "monthly",
       priority: 0.5,
     },

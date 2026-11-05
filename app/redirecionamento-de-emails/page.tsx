@@ -9,7 +9,7 @@ import { pageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = pageMetadata({
   ...redirecionamento.metadata,
-  path: "/guias-praticos/redirecionamento-de-emails",
+  path: "/redirecionamento-de-emails",
 });
 
 export default function RedirecionamentoDeEmails() {
@@ -18,8 +18,7 @@ export default function RedirecionamentoDeEmails() {
       pageId="pagina-guia-redirecionamento"
       status={site.status}
       nav={site.nav}
-      currentPath="/guias-praticos/redirecionamento-de-emails"
-      activeFooter="/guias-praticos"
+      currentPath="/redirecionamento-de-emails"
       floatIntent="ajuda-redirecionamento"
     >
       <GuideHero hero={redirecionamento.hero} />

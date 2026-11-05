@@ -9,8 +9,14 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/guias-praticos",
-        destination: "/guias-praticos/redirecionamento-de-emails",
+        destination: "/redirecionamento-de-emails",
         permanent: false,
+      },
+      // URL antiga do guia.
+      {
+        source: "/guias-praticos/redirecionamento-de-emails",
+        destination: "/redirecionamento-de-emails",
+        permanent: true,
       },
     ];
   },
